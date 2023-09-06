@@ -1,0 +1,1256 @@
+{
+	"Windows Shortcuts": [
+		{
+			"sck": "Windows key",
+			"action": "Open Start menu."
+		},
+		{
+			"sck": "Windows key + A",
+			"action": "Open action center."
+		},
+		{
+			"sck": "Windows key + S (or Q)",
+			"action": "Open Search."
+		},
+		{
+			"sck": "Windows key + D",
+			"action": "Display and hide the desktop."
+		},
+		{
+			"sck": "Windows key + L",
+			"action": "Locks computer."
+		},
+		{
+			"sck": "Windows key + M",
+			"action": "Minimize all windows."
+		},
+		{
+			"sck": "Windows key + B",
+			"action": "Set focus notification area in the Taskbar."
+		},
+		{
+			"sck": "Windows key + C",
+			"action": "Launch Cortana app."
+		},
+		{
+			"sck": "Windows key + T",
+			"action": "Cycle through apps in the Taskbar."
+		},
+		{
+			"sck": "Windows key + J",
+			"action": "Set focus on a tip for Windows 10 when applicable."
+		},
+		{
+			"sck": "Windows key + H",
+			"action": "Open dictation feature."
+		},
+		{
+			"sck": "Windows key + E",
+			"action": "Open File Explorer."
+		},
+		{
+			"sck": "Windows key + I",
+			"action": "Open Settings."
+		},
+		{
+			"sck": "Windows key + R",
+			"action": "Open Run command."
+		},
+		{
+			"sck": "Windows key + K",
+			"action": "Open Connect settings."
+		},
+		{
+			"sck": "Windows key + X",
+			"action": "Open Quick Link menu."
+		},
+		{
+			"sck": "Windows key + V",
+			"action": "Open Clipboard bin."
+		},
+		{
+			"sck": "Windows key + W",
+			"action": "Open the Windows Ink Workspace."
+		},
+		{
+			"sck": "Windows key + U",
+			"action": "Open Ease of Access settings."
+		},
+		{
+			"sck": "Windows key + P",
+			"action": "Open Project settings."
+		},
+		{
+			"sck": "Windows key + Ctrl + Enter",
+			"action": "Open Narrator."
+		},
+		{
+			"sck": "Windows key + Plus (+)",
+			"action": "Zoom in using the magnifier."
+		},
+		{
+			"sck": "Windows key + Minus (-)",
+			"action": "Zoom out using the magnifier."
+		},
+		{
+			"sck": "Windows key + Esc",
+			"action": "Exit magnifier."
+		},
+		{
+			"sck": "Windows key + Forward-slash (\/)",
+			"action": "Start IME reconversion."
+		},
+		{
+			"sck": "Windows key + Comma (,)",
+			"action": "Temporarily peek at the desktop."
+		},
+		{
+			"sck": "Windows key + Up arrow key",
+			"action": "Maximize app windows."
+		},
+		{
+			"sck": "Windows key + Down arrow key",
+			"action": "Minimize app windows."
+		},
+		{
+			"sck": "Windows key + Home",
+			"action": "Minimize or maximize all but the active desktop window."
+		},
+		{
+			"sck": "Windows key + Shift + M",
+			"action": "Restore minimized windows on the desktop."
+		},
+		{
+			"sck": "Windows key + Shift + Up arrow key",
+			"action": "Stretch desktop window to the top and bottom of the screen."
+		},
+		{
+			"sck": "Windows key + Shift + Down arrow key",
+			"action": "Maximize or minimize active windows vertically while maintaining width."
+		},
+		{
+			"sck": "Windows key + Shift + Left arrow key",
+			"action": "Move active window to monitor on the left."
+		},
+		{
+			"sck": "Windows key + Shift + Right arrow key",
+			"action": "Move active window to monitor on the right."
+		},
+		{
+			"sck": "Windows key + Left arrow key",
+			"action": "Snap app or window left."
+		},
+		{
+			"sck": "Windows key + Right arrow key",
+			"action": "Snap app or window right."
+		},
+		{
+			"sck": "Windows key + Number (0-9)",
+			"action": "Open the app in number position in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Shift + Number (0-9)",
+			"action": "Open another app instance in the number position in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Ctrl + Number (0-9)",
+			"action": "Switch to the last active window of the app in the number position in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Alt + Number (0-9)",
+			"action": "Open Jump List of the app in number position in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Ctrl + Shift + Number (0-9)",
+			"action": "Open another instance as an administrator of the app in the number position in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Ctrl + Spacebar",
+			"action": "Change previous selected input option."
+		},
+		{
+			"sck": "Windows key + Spacebar",
+			"action": "Change keyboard layout and input language."
+		},
+		{
+			"sck": "Windows key + Tab",
+			"action": "Open Task View."
+		},
+		{
+			"sck": "Windows key + Ctrl + D",
+			"action": "Create a virtual desktop."
+		},
+		{
+			"sck": "Windows key + Ctrl + F4",
+			"action": "Close active virtual desktop."
+		},
+		{
+			"sck": "Windows key + Ctrl + Right arrow",
+			"action": "Switch to the virtual desktop on the right."
+		},
+		{
+			"sck": "Windows key + Ctrl + Left arrow",
+			"action": "Switch to the virtual desktop on the left."
+		},
+		{
+			"sck": "Windows key + Ctrl + Shift + B",
+			"action": "Wake up the device when black or a blank screen."
+		},
+		{
+			"sck": "Windows key + PrtScn",
+			"action": "Capture a full screenshot in the \"Screenshots\" folder."
+		},
+		{
+			"sck": "Windows key + Shift + S",
+			"action": "Create part of the screen screenshot."
+		},
+		{
+			"sck": "Windows key + Ctrl + F",
+			"action": "Open search for the device on a domain network."
+		},
+		{
+			"sck": "Windows key + Ctrl + Q",
+			"action": "Open Quick Assist."
+		},
+		{
+			"sck": "Windows key + Alt + D",
+			"action": "Open date and time in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Pause",
+			"action": "Show System Properties dialog box."
+		}
+	],
+	"VS Code Shortcuts": [
+		{
+			"sck": "Ctrl + Q",
+			"action": "Visual Studio search"
+		},
+		{
+			"sck": "Ctrl + T or Ctrl + ,",
+			"action": "Go to All"
+		},
+		{
+			"sck": "Ctrl + 1 + [T \/ F \/ M \/ S]",
+			"action": "Go to Type \/ File \/ Member \/ Symbol"
+		},
+		{
+			"sck": "Ctrl + - \/ Ctrl + Shift + -",
+			"action": "Navigate Backward \/ Forward"
+		},
+		{
+			"sck": "F12 \/ Alt + F12",
+			"action": "Go to Definition \/ Peek to Definition"
+		},
+		{
+			"sck": "Ctrl + F12",
+			"action": "Go to Implementation"
+		},
+		{
+			"sck": "Ctrl + Shift + F12",
+			"action": "Go to Next Error"
+		},
+		{
+			"sck": "F8 \/ Shift + F8",
+			"action": "Go to Next \/ Previous Result in List"
+		},
+		{
+			"sck": "Alt + Enter or Ctrl + .",
+			"action": "Quick actions \/ Refactoring Suggestions"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + I",
+			"action": "Method Info"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + C \/ U",
+			"action": "Comment \/ Uncomment"
+		},
+		{
+			"sck": "Ctrl + Shift + L",
+			"action": "Delete Line (without copying it)"
+		},
+		{
+			"sck": "Ctrl + Shift + V",
+			"action": "Paste from keyboard buffer ring"
+		},
+		{
+			"sck": "Alt + ↑ \/ ↓",
+			"action": "Move Code Up \/ Down"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + D \/ F",
+			"action": "Format Document \/ Selection"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + E",
+			"action": "Code Cleanup"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + S",
+			"action": "Surround with (… if\/try\/foreach)"
+		},
+		{
+			"sck": "Ctrl + R, Ctrl + R",
+			"action": "Rename"
+		},
+		{
+			"sck": "Ctrl + R, Ctrl + E",
+			"action": "Encapsulate Field"
+		},
+		{
+			"sck": "Ctrl + R, Ctrl + G",
+			"action": "Remove and Sort Usings"
+		},
+		{
+			"sck": "Ctrl + R, Ctrl + M",
+			"action": "Extract Method"
+		},
+		{
+			"sck": "Debugging and Testing"
+		},
+		{
+			"sck": "F5",
+			"action": "Debug"
+		},
+		{
+			"sck": "Ctrl+F5",
+			"action": "Run"
+		},
+		{
+			"sck": "Shift + F5",
+			"action": "Stop"
+		},
+		{
+			"sck": "F9",
+			"action": "Toggle Breakpoint"
+		},
+		{
+			"sck": "F10",
+			"action": "Step Over"
+		},
+		{
+			"sck": "F11",
+			"action": "Step Into"
+		},
+		{
+			"sck": "Shift + F11",
+			"action": "Step Out"
+		},
+		{
+			"sck": "Ctrl + R, Ctrl + A \/ Ctrl + R, A",
+			"action": "Debug All Tests \/ Run All Tests"
+		},
+		{
+			"sck": "Alt+G, C",
+			"action": "Git Changes Window"
+		},
+		{
+			"sck": "Alt+G, M",
+			"action": "Git Repository Window"
+		},
+		{
+			"sck": "Ctrl+Alt+F3",
+			"action": "Branch Picker"
+		},
+		{
+			"sck": "Ctrl+Alt+F4",
+			"action": "Repository Picker"
+		},
+		{
+			"sck": "Ctrl+E, Ctrl+C",
+			"action": "Network Operations Menu"
+		},
+		null,
+		{
+			"sck": "Window Management"
+		},
+		{
+			"sck": "Ctrl+[, S",
+			"action": "Select Active File in Solution Explorer"
+		},
+		{
+			"sck": "Open Tool Windows"
+		},
+		{
+			"sck": "Ctrl + Alt + L",
+			"action": "Solution Explorer"
+		},
+		{
+			"sck": "Ctrl + Alt + O",
+			"action": "Output Window"
+		},
+		{
+			"sck": "Ctrl + \\, E",
+			"action": "Error List"
+		},
+		{
+			"sck": "Ctrl + Alt + B",
+			"action": "Breakpoints"
+		},
+		{
+			"sck": "Alt + F6 \/ Shift + Alt + F6",
+			"action": "Next \/ Previous Tool Window"
+		},
+		{
+			"sck": "Shift + Esc",
+			"action": "Close Current Tool Window"
+		},
+		{
+			"sck": "Ctrl + Alt + PgUp \/ PgDn",
+			"action": "Go to Document to the Left \/ Right"
+		},
+		{
+			"sck": "Ctrl + Tab \/ Ctrl + Shift + Tab",
+			"action": "Most Recent \/ Least Recent Open Document"
+		},
+		{
+			"sck": "Ctrl + Alt + Home",
+			"action": "Keep Preview Window Open"
+		},
+		{
+			"sck": "Shift + Alt + Enter",
+			"action": "Full Screen (max window size \/ reduced menus)"
+		}
+	],
+	"Command Line Shortcuts": [
+		{
+			"sck": "Ctrl + C (or Ctrl + Insert)",
+			"action": "Copy the selected text."
+		},
+		{
+			"sck": "Ctrl + V (or Shift + Insert)",
+			"action": "Paste the selected text."
+		},
+		{
+			"sck": "Ctrl + M",
+			"action": "Enter Mark mode."
+		},
+		{
+			"sck": "Alt + selection key",
+			"action": "Begin selection in block mode."
+		},
+		{
+			"sck": "Arrow keys",
+			"action": "Move the cursor in the direction specified."
+		},
+		{
+			"sck": "Page up",
+			"action": "Move the cursor by one page up."
+		},
+		{
+			"sck": "Page down",
+			"action": "Move the cursor by one page down."
+		},
+		{
+			"sck": "Ctrl + Home (Mark mode)",
+			"action": "Move the cursor to the beginning of the buffer."
+		},
+		{
+			"sck": "Ctrl + End (Mark mode)",
+			"action": "Move the cursor to the end of the buffer."
+		},
+		{
+			"sck": "Ctrl + Up arrow",
+			"action": "Move up one line in the output history."
+		},
+		{
+			"sck": "Ctrl + Down arrow",
+			"action": "Move down one line in the output history."
+		},
+		{
+			"sck": "Ctrl + Home (History navigation)",
+			"action": "If the command line is empty, move the viewport to the top of the buffer. Otherwise, delete all the characters to the left of the cursor in the command line."
+		},
+		{
+			"sck": "Ctrl + End (History navigation)",
+			"action": "If the command line is empty, move the viewport to the command line. Otherwise, delete all the characters to the right of the cursor in the command line."
+		}
+	],
+	"Command Shortcuts": [
+		{
+			"sck": "Command",
+			"action": "Opens the command prompt."
+		},
+		{
+			"sck": "Compmgmt.msc",
+			"action": "Opens the computer management console."
+		},
+		{
+			"sck": "Devmgmt.msc",
+			"action": "Opens the device manager."
+		},
+		{
+			"sck": "Diskmgmt.msc",
+			"action": "Opens the disk management tool."
+		},
+		{
+			"sck": "Eventvwr.msc",
+			"action": "Opens the event viewer."
+		},
+		{
+			"sck": "Fsmgmt.msc",
+			"action": "Opens shared folders."
+		},
+		{
+			"sck": "Gpedit.msc",
+			"action": "Opens the group policy editor."
+		},
+		{
+			"sck": "Lusrmgr.msc",
+			"action": "Opens the local users and groups."
+		},
+		{
+			"sck": "Mailto:",
+			"action": "Opens the default email client."
+		},
+		{
+			"sck": "Msconfig",
+			"action": "Opens the system configuration utility."
+		},
+		{
+			"sck": "Msinfo32",
+			"action": "Opens the system information utility."
+		},
+		{
+			"sck": "Perfmon.msc",
+			"action": "Opens the performance monitor."
+		},
+		{
+			"sck": "Regedit",
+			"action": "Opens the registry editor."
+		},
+		{
+			"sck": "Rsop.msc",
+			"action": "Opens resultant set of policy."
+		},
+		{
+			"sck": "Secpol.msc",
+			"action": "Opens local security settings."
+		},
+		{
+			"sck": "Services.msc",
+			"action": "Opens services utility."
+		},
+		{
+			"sck": "System.ini",
+			"action": "Windows loading information."
+		},
+		{
+			"sck": "Win.ini",
+			"action": "Windows loading information."
+		},
+		{
+			"sck": "Winver",
+			"action": "Shows current version of Windows."
+		},
+		{
+			"sck": "Appwiz.cpl",
+			"action": "Add\/Remove Programs"
+		},
+		{
+			"sck": "Timedate.cpl",
+			"action": "Date\/Time Properties"
+		},
+		{
+			"sck": "Desk.cpl",
+			"action": "Display Properties"
+		},
+		{
+			"sck": "Fonts",
+			"action": "Fonts Folder"
+		},
+		{
+			"sck": "Inetcpl.cpl",
+			"action": "Internet Properties"
+		},
+		{
+			"sck": "Main.cpl keyboard",
+			"action": "Keyboard Properties"
+		},
+		{
+			"sck": "Main.cpl",
+			"action": "Mouse Properties"
+		},
+		{
+			"sck": "Mmsys.cpl",
+			"action": "Multimedia Properties"
+		},
+		{
+			"sck": "Mmsys.cpl sounds",
+			"action": "Sound Properties"
+		},
+		{
+			"sck": "Sysdm.cpl",
+			"action": "System Properties"
+		}
+	],
+	"Desktop Shortcuts": [
+		{
+			"sck": "Windows key (or Ctrl + Esc)",
+			"action": "Open Start menu."
+		},
+		{
+			"sck": "Ctrl + Arrow keys",
+			"action": "Change Start menu size."
+		},
+		{
+			"sck": "Ctrl + Shift + Esc",
+			"action": "Open Task Manager."
+		},
+		{
+			"sck": "Ctrl + Shift",
+			"action": "Switch keyboard layout."
+		},
+		{
+			"sck": "Alt + F4",
+			"action": "Close active window. (If no active window is present, a shutdown box appears.)"
+		},
+		{
+			"sck": "Ctrl + F5 (or Ctrl + R)",
+			"action": "Refresh current window."
+		},
+		{
+			"sck": "Ctrl + Alt + Tab",
+			"action": "View open apps."
+		},
+		{
+			"sck": "Ctrl + Arrow keys (to select) + Spacebar",
+			"action": "Select multiple items on desktop or File Explorer."
+		},
+		{
+			"sck": "Alt + Underlined letter",
+			"action": "Runs command for the underlined letter in apps."
+		},
+		{
+			"sck": "Alt + Tab",
+			"action": "Switch between open apps while pressing Tab multiple times."
+		},
+		{
+			"sck": "Alt + Left arrow key",
+			"action": "Go back."
+		},
+		{
+			"sck": "Alt + Right arrow key",
+			"action": "Go forward."
+		},
+		{
+			"sck": "Alt + Page Up",
+			"action": "Move up one screen."
+		},
+		{
+			"sck": "Alt + Page Down",
+			"action": "Move down one screen."
+		},
+		{
+			"sck": "Alt + Esc",
+			"action": "Cycle through open windows."
+		},
+		{
+			"sck": "Alt + Spacebar",
+			"action": "Open context menu for the active window."
+		},
+		{
+			"sck": "Alt + F8",
+			"action": "Reveals typed password in Sign-in screen."
+		},
+		{
+			"sck": "Shift + Click app button",
+			"action": "Open another instance of an app from the Taskbar."
+		},
+		{
+			"sck": "Ctrl + Shift + Click app button",
+			"action": "Run app as administrator from the Taskbar."
+		},
+		{
+			"sck": "Shift + Right-click app button",
+			"action": "Show window menu for the app from the Taskbar."
+		},
+		{
+			"sck": "Ctrl + Click a grouped app button",
+			"action": "Cycle through windows in the group from the Taskbar."
+		},
+		{
+			"sck": "Shift + Right-click grouped app button",
+			"action": "Show window menu for the group from the Taskbar."
+		},
+		{
+			"sck": "Ctrl + Left arrow key",
+			"action": "Move the cursor to the beginning of the previous word."
+		},
+		{
+			"sck": "Ctrl + Right arrow key",
+			"action": "Move the cursor to the beginning of the next word."
+		},
+		{
+			"sck": "Ctrl + Up arrow key",
+			"action": "Move the cursor to the beginning of the previous paragraph"
+		},
+		{
+			"sck": "Ctrl + Down arrow key",
+			"action": "Move the cursor to the beginning of the next paragraph."
+		},
+		{
+			"sck": "Ctrl + Shift + Arrow key",
+			"action": "Select block of text."
+		},
+		{
+			"sck": "Ctrl + Spacebar",
+			"action": "Enable or disable Chinese IME."
+		},
+		{
+			"sck": "Shift + F10",
+			"action": "Open context menu for selected item."
+		},
+		{
+			"sck": "F10",
+			"action": "Enable app menu bar."
+		},
+		{
+			"sck": "Shift + Arrow keys",
+			"action": "Select multiple items."
+		},
+		{
+			"sck": "Windows key + X",
+			"action": "Open Quick Link menu."
+		},
+		{
+			"sck": "Windows key + Number (0-9)",
+			"action": "Open the app in number position from the Taskbar."
+		},
+		{
+			"sck": "Windows key + T",
+			"action": "Cycle through apps in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Alt + Number (0-9)",
+			"action": "Open Jump List of the app in number position from the Taskbar."
+		},
+		{
+			"sck": "Windows key + D",
+			"action": "Display and hide the desktop."
+		},
+		{
+			"sck": "Windows key + M",
+			"action": "Minimize all windows."
+		},
+		{
+			"sck": "Windows key + Shift + M",
+			"action": "Restore minimized windows on the desktop."
+		},
+		{
+			"sck": "Windows key + Home",
+			"action": "Minimize or maximize all but the active desktop window."
+		},
+		{
+			"sck": "Windows key + Shift + Up arrow key",
+			"action": "Stretch desktop window to the top and bottom of the screen."
+		},
+		{
+			"sck": "Windows key + Shift + Down arrow key",
+			"action": "Maximize or minimize active desktop windows vertically while maintaining width."
+		},
+		{
+			"sck": "Windows key + Shift + Left arrow key",
+			"action": "Move active window to monitor on the left."
+		},
+		{
+			"sck": "Windows key + Shift + Right arrow key",
+			"action": "Move active window to monitor on the right."
+		},
+		{
+			"sck": "Windows key + Left arrow key",
+			"action": "Snap app or window left."
+		},
+		{
+			"sck": "Windows key + Right arrow key",
+			"action": "Snap app or window right."
+		},
+		{
+			"sck": "Windows key + S (or Q)",
+			"action": "Open Search."
+		},
+		{
+			"sck": "Windows key + Alt + D",
+			"action": "Open date and time in the Taskbar."
+		},
+		{
+			"sck": "Windows key + Tab",
+			"action": "Open Task View."
+		},
+		{
+			"sck": "Windows key + Ctrl + D",
+			"action": "Create new virtual desktop."
+		},
+		{
+			"sck": "Windows key + Ctrl + F4",
+			"action": "Close active virtual desktop."
+		},
+		{
+			"sck": "Windows key + Ctrl + Right arrow",
+			"action": "Switch to the virtual desktop on the right."
+		},
+		{
+			"sck": "Windows key + Ctrl + Left arrow",
+			"action": "Switch to the virtual desktop on the left."
+		},
+		{
+			"sck": "Windows key + P",
+			"action": "Open Project settings."
+		},
+		{
+			"sck": "Windows key + A",
+			"action": "Open action center."
+		},
+		{
+			"sck": "Windows key + I",
+			"action": "Open Settings app."
+		},
+		{
+			"sck": "Backspace",
+			"action": "Return to the Settings app home page."
+		}
+	],
+	"Essential Shortcuts": [
+		{
+			"sck": "Ctrl + A",
+			"actions": "Select all content."
+		},
+		{
+			"sck": "Ctrl + C (or Ctrl + Insert)",
+			"actions": "Copy selected items to clipboard."
+		},
+		{
+			"sck": "Ctrl + X",
+			"actions": "Cut selected items to clipboard."
+		},
+		{
+			"sck": "Ctrl + V (or Shift + Insert)",
+			"actions": "Paste content from clipboard."
+		},
+		{
+			"sck": "Ctrl + Z",
+			"actions": "Undo an action, including undelete files (limited)."
+		},
+		{
+			"sck": "Ctrl + Y",
+			"actions": "Redo an action."
+		},
+		{
+			"sck": "Ctrl + Shift + N",
+			"actions": "Create new folder on desktop or File Explorer."
+		},
+		{
+			"sck": "Alt + F4",
+			"actions": "Close active window. (If no active window is present, a shutdown box appears.)"
+		},
+		{
+			"sck": "Ctrl + D (Del)",
+			"actions": "Delete selected item to the Recycle Bin."
+		},
+		{
+			"sck": "Shift + Delete",
+			"actions": "Delete the selected item permanently, skipping Recycle Bin."
+		},
+		{
+			"sck": "F2",
+			"actions": "Rename selected item."
+		},
+		{
+			"sck": "Esc",
+			"actions": "Close current task."
+		},
+		{
+			"sck": "Alt + Tab",
+			"actions": "Switch between open apps."
+		},
+		{
+			"sck": "Windows key + I",
+			"actions": "Open Settings app."
+		},
+		{
+			"sck": "Windows key + E",
+			"actions": "Open File Explorer."
+		},
+		{
+			"sck": "Windows key + A",
+			"actions": "Open action center."
+		},
+		{
+			"sck": "Windows key + D",
+			"actions": "Display and hide the desktop."
+		},
+		{
+			"sck": "Windows key + L",
+			"actions": "Lock device."
+		},
+		{
+			"sck": "Windows key + V",
+			"actions": "Open Clipboard bin."
+		},
+		{
+			"sck": "Windows key + PrtScn",
+			"actions": "Capture a full screenshot in the \"Screenshots\" folder."
+		},
+		{
+			"sck": "Windows key + Shift + S",
+			"actions": "Capture part of the screen with Snip & Sketch."
+		},
+		{
+			"sck": "Windows key + Left arrow key",
+			"actions": "Snap app or window left."
+		},
+		{
+			"sck": "Windows key + Right arrow key",
+			"actions": "Snap app or window right."
+		}
+	],
+	"File Explorer Shortcuts": [
+		{
+			"sck": "Windows key + E",
+			"action": "Open File Explorer."
+		},
+		{
+			"sck": "Alt + D",
+			"action": "Select address bar."
+		},
+		{
+			"sck": "Ctrl + E (or F)",
+			"action": "Select search box."
+		},
+		{
+			"sck": "Ctrl + N",
+			"action": "Open new window."
+		},
+		{
+			"sck": "Ctrl + W",
+			"action": "Close active window."
+		},
+		{
+			"sck": "Ctrl + F (or F3)",
+			"action": "Start search."
+		},
+		{
+			"sck": "Ctrl + Mouse scroll wheel",
+			"action": "Change view file and folder."
+		},
+		{
+			"sck": "Ctrl + Shift + E",
+			"action": "Expands all folders from the tree in the navigation pane."
+		},
+		{
+			"sck": "Ctrl + Shift + N",
+			"action": "Creates a new folder on desktop or File Explorer."
+		},
+		{
+			"sck": "Ctrl + L",
+			"action": "Focus on the address bar."
+		},
+		{
+			"sck": "Ctrl + Shift + Number (1-8)",
+			"action": "Changes folder view."
+		},
+		{
+			"sck": "Alt + P",
+			"action": "Display preview panel."
+		},
+		{
+			"sck": "Alt + Enter",
+			"action": "Open Properties settings for the selected item."
+		},
+		{
+			"sck": "Alt + Right arrow key",
+			"action": "View next folder."
+		},
+		{
+			"sck": "Alt + Left arrow key (or) Backspace",
+			"action": "View previous folder."
+		},
+		{
+			"sck": "Alt + Up arrow",
+			"action": "Move up a level in the folder path."
+		},
+		{
+			"sck": "F11",
+			"action": "Switch active window full-screen mode."
+		},
+		{
+			"sck": "F2",
+			"action": "Rename selected item."
+		},
+		{
+			"sck": "F4",
+			"action": "Switch focus to address bar."
+		},
+		{
+			"sck": "F5",
+			"action": "Refresh File Explorer's current view."
+		},
+		{
+			"sck": "F6",
+			"action": "Cycle through elements on the screen."
+		},
+		{
+			"sck": "Home",
+			"action": "Scroll to the top of the window."
+		},
+		{
+			"sck": "End",
+			"action": "Scroll to the bottom of the window."
+		}
+	],
+	"Browser Shortcuts": [
+		{
+			"sck": "Ctrl + D",
+			"action": "Save the tab as a favorite\/ bookmark."
+		},
+		{
+			"sck": "Ctrl + Shift + D",
+			"action": "Save open tabs as favorites inside a new folder."
+		},
+		{
+			"sck": "Alt + D (or Ctrl + L or F4)",
+			"action": "Select the URL in the address bar to edit."
+		},
+		{
+			"sck": "Ctrl + E (or Ctrl + K)",
+			"action": "Start search in the address bar."
+		},
+		{
+			"sck": "Alt + E (or Alt + F or F10 + Enter)",
+			"action": "Open the Settings (three-dotted) menu."
+		},
+		{
+			"sck": "Ctrl + F (or F3)",
+			"action": "Open the Find on page feature."
+		},
+		{
+			"sck": "Ctrl + G",
+			"action": "Cycle through search matches in the Find Bar."
+		},
+		{
+			"sck": "Ctrl + H",
+			"action": "Open the History page in a new tab."
+		},
+		{
+			"sck": "Ctrl + Shift + I (or F12)",
+			"action": "Open Developer Tools console."
+		},
+		{
+			"sck": "Ctrl + J",
+			"action": "Open the Downloads page in a new tab."
+		},
+		{
+			"sck": "Ctrl + Shift + K",
+			"action": "Create a duplicate of the tab."
+		},
+		{
+			"sck": "Ctrl + Shift + L",
+			"action": "Paste and search or Paste and go."
+		},
+		{
+			"sck": "Ctrl + M",
+			"action": "Mute the current tab."
+		},
+		{
+			"sck": "Ctrl + Shift + M",
+			"action": "Sign in as a different user in the browser or use Guest user."
+		},
+		{
+			"sck": "Ctrl + N",
+			"action": "Open a new tab in a new window."
+		},
+		{
+			"sck": "Ctrl + Shift + N",
+			"action": "Open a new InPrivate window."
+		},
+		{
+			"sck": "Ctrl + O",
+			"action": "Open a file in File Manager in browser."
+		},
+		{
+			"sck": "Ctrl + Shift + O",
+			"action": "Open Favorites management page."
+		},
+		{
+			"sck": "Ctrl + P",
+			"action": "Print the current page."
+		},
+		{
+			"sck": "Ctrl + Shift + P",
+			"action": "Open print settings to print page."
+		},
+		{
+			"sck": "Ctrl + R (or F5)",
+			"action": "Reload the current page."
+		},
+		{
+			"sck": "Ctrl + Shift + R (or Shift + F5)",
+			"action": "Reload the page, ignoring cached content."
+		},
+		{
+			"sck": "Ctrl + S",
+			"action": "Save loaded page."
+		},
+		{
+			"sck": "Ctrl + T",
+			"action": "Open a new tab and switch to new tab."
+		},
+		{
+			"sck": "Ctrl + Shift + T",
+			"action": "Reopen the last closed tab and switch to the tab."
+		},
+		{
+			"sck": "Alt + Shift + T",
+			"action": "Focus on the first item in the toolbar."
+		},
+		{
+			"sck": "Ctrl + U",
+			"action": "View page source code."
+		},
+		{
+			"sck": "Ctrl + Shift + U",
+			"action": "Controls Read Aloud feature."
+		},
+		{
+			"sck": "Ctrl + Shift + V",
+			"action": "Paste without including formatting."
+		},
+		{
+			"sck": "Ctrl + W (or Ctrl + F4)",
+			"action": "Close the current tab."
+		},
+		{
+			"sck": "Ctrl + Shift + W",
+			"action": "Close the current window and tabs."
+		},
+		{
+			"sck": "Ctrl + Shift + Y",
+			"action": "Open Collections feature."
+		},
+		{
+			"sck": "Ctrl + 0",
+			"action": "Reset zoom level setting."
+		},
+		{
+			"sck": "Ctrl + 1, 2, ... 8",
+			"action": "Switch to a specific open tab."
+		},
+		{
+			"sck": "Ctrl + 9",
+			"action": "Switch to the last tab of the window."
+		},
+		{
+			"sck": "Ctrl + Enter",
+			"action": "Add \"www.\" to the link you typed."
+		},
+		{
+			"sck": "Ctrl + Tab (or Ctrl + PgDn)",
+			"action": "Switch to the next open tab."
+		},
+		{
+			"sck": "Ctrl + Shift + Tab",
+			"action": "Switch to the previous open tab."
+		},
+		{
+			"sck": "Ctrl + Plus (+)",
+			"action": "Zoom in."
+		},
+		{
+			"sck": "Ctrl + Minus (-)",
+			"action": "Zoom out."
+		},
+		{
+			"sck": "Ctrl + \\ (PDF)",
+			"action": "Toggle PDF between fit to page or fit to width."
+		},
+		{
+			"sck": "Ctrl + [ (PDF)",
+			"action": "Rotate PDF counter-clockwise 90 degree."
+		},
+		{
+			"sck": "Ctrl + ] (PDF)",
+			"action": "Rotate PDF clockwise 90 degree."
+		},
+		{
+			"sck": "Ctrl + Shift + Delete",
+			"action": "Open clear browsing data options."
+		},
+		{
+			"sck": "Alt (or F10)",
+			"action": "Focus on the Settings (three-dotted) button."
+		},
+		{
+			"sck": "Alt + Left arrow",
+			"action": "Go back."
+		},
+		{
+			"sck": "Alt + Right arrow",
+			"action": "Go forward."
+		},
+		{
+			"sck": "Alt + Home",
+			"action": "Open home page."
+		},
+		{
+			"sck": "Alt + F4",
+			"action": "Close the current window."
+		},
+		{
+			"sck": "F1",
+			"action": "Open Help page."
+		},
+		{
+			"sck": "F6",
+			"action": "Switch focus to the next pane."
+		},
+		{
+			"sck": "Shift + F6",
+			"action": "Switch focus to the previous pane."
+		},
+		{
+			"sck": "F7",
+			"action": "Enable or disable caret browsing."
+		},
+		{
+			"sck": "F9",
+			"action": "Enter or exit Immersive Reader."
+		},
+		{
+			"sck": "Shift + F10",
+			"action": "Open browser context menu."
+		},
+		{
+			"sck": "F11",
+			"action": "Enter fullscreen."
+		},
+		{
+			"sck": "Esc",
+			"action": "Stop loading page, close dialog, or close pop-up."
+		},
+		{
+			"sck": "Spacebar (or PgDn)",
+			"action": "Scroll down the webpage one screen at a time."
+		},
+		{
+			"sck": "Shift + Spacebar (or PgUp)",
+			"action": "Scroll up the webpage one screen at a time."
+		},
+		{
+			"sck": "Tab",
+			"action": "Go to the next tab stop."
+		},
+		{
+			"sck": "Shift + Tab",
+			"action": "Go to the previous tab stop"
+		},
+		{
+			"sck": "Home",
+			"action": "Scroll to the top of the page, or move keyboard focus to the first item of the pane."
+		},
+		{
+			"sck": "End",
+			"action": "Scroll to the bottom of the page, or move keyboard focus to the last item of the pane."
+		}
+	]
+}
