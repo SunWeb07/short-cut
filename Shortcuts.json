@@ -97,7 +97,7 @@
 			"action": "Exit magnifier."
 		},
 		{
-			"sck": "Windows key + Forward-slash (\/)",
+			"sck": "Windows key + (\/)",
 			"action": "Start IME reconversion."
 		},
 		{
@@ -231,16 +231,36 @@
 			"action": "Go to All"
 		},
 		{
-			"sck": "Ctrl + 1 + [T \/ F \/ M \/ S]",
-			"action": "Go to Type \/ File \/ Member \/ Symbol"
+			"sck": "Ctrl + 1 + T",
+			"action": "Go to Type"
 		},
 		{
-			"sck": "Ctrl + - \/ Ctrl + Shift + -",
-			"action": "Navigate Backward \/ Forward"
+			"sck": "Ctrl + 1 + F",
+			"action": "Go to File"
 		},
 		{
-			"sck": "F12 \/ Alt + F12",
-			"action": "Go to Definition \/ Peek to Definition"
+			"sck": "Ctrl + 1 + M",
+			"action": "Go to Member"
+		},
+		{
+			"sck": "Ctrl + 1 + S",
+			"action": "Go to Symbol"
+		},
+		{
+			"sck": "Ctrl + -",
+			"action": "Navigate Backward"
+		},
+		{
+			"sck": "Ctrl + Shift + -",
+			"action": "Navigate Forward"
+		},
+		{
+			"sck": "F12",
+			"action": "Go to Definition"
+		},
+		{
+			"sck": "Alt + F12",
+			"action": "Peek to Definition"
 		},
 		{
 			"sck": "Ctrl + F12",
@@ -251,20 +271,32 @@
 			"action": "Go to Next Error"
 		},
 		{
-			"sck": "F8 \/ Shift + F8",
-			"action": "Go to Next \/ Previous Result in List"
+			"sck": "F8",
+			"action": "Go to Next"
 		},
 		{
-			"sck": "Alt + Enter or Ctrl + .",
-			"action": "Quick actions \/ Refactoring Suggestions"
+			"sck":"Shift + F8",
+			"action": "Previous Result in List"
+		},
+		{
+			"sck": "Alt + Enter",
+			"action": "Quick actions"
+		},
+		{
+			"sck": "Ctrl + .",
+			"action": "Refactoring Suggestions"
 		},
 		{
 			"sck": "Ctrl + K, Ctrl + I",
 			"action": "Method Info"
 		},
 		{
-			"sck": "Ctrl + K, Ctrl + C \/ U",
-			"action": "Comment \/ Uncomment"
+			"sck": "Ctrl + K, Ctrl + C",
+			"action": "Comment"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + U",
+			"action": "Uncomment"
 		},
 		{
 			"sck": "Ctrl + Shift + L",
@@ -275,12 +307,20 @@
 			"action": "Paste from keyboard buffer ring"
 		},
 		{
-			"sck": "Alt + ↑ \/ ↓",
-			"action": "Move Code Up \/ Down"
+			"sck": "Alt + ↑",
+			"action": "Move Code Up"
 		},
 		{
-			"sck": "Ctrl + K, Ctrl + D \/ F",
-			"action": "Format Document \/ Selection"
+			"sck": "Alt + ↓",
+			"action": "Move Code Down"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + D",
+			"action": "Format Document"
+		},
+		{
+			"sck": "Ctrl + K, Ctrl + F",
+			"action": "Format Selection"
 		},
 		{
 			"sck": "Ctrl + K, Ctrl + E",
@@ -338,8 +378,8 @@
 			"action": "Step Out"
 		},
 		{
-			"sck": "Ctrl + R, Ctrl + A \/ Ctrl + R, A",
-			"action": "Debug All Tests \/ Run All Tests"
+			"sck": "Ctrl + R, Ctrl + A",
+			"action": "Debug All Tests, Run All Tests"
 		},
 		{
 			"sck": "Alt+G, C",
@@ -389,20 +429,32 @@
 			"action": "Breakpoints"
 		},
 		{
-			"sck": "Alt + F6 \/ Shift + Alt + F6",
-			"action": "Next \/ Previous Tool Window"
+			"sck": "Alt + F6",
+			"action": "Next Tool Window"
+		},
+		{
+			"sck": "Shift + Alt + F6",
+			"action": "Previous Tool Window"
 		},
 		{
 			"sck": "Shift + Esc",
 			"action": "Close Current Tool Window"
 		},
 		{
-			"sck": "Ctrl + Alt + PgUp \/ PgDn",
-			"action": "Go to Document to the Left \/ Right"
+			"sck": "Ctrl + Alt + PgUp",
+			"action": "Go to Document to the Left"
 		},
 		{
-			"sck": "Ctrl + Tab \/ Ctrl + Shift + Tab",
-			"action": "Most Recent \/ Least Recent Open Document"
+			"sck": "Ctrl + Alt + PgDn",
+			"action": "Go to Document to the Right"
+		},
+		{
+			"sck": "Ctrl + Tab",
+			"action": "Most Recent Open Document"
+		},
+		{
+			"sck": "Ctrl + Shift + Tab",
+			"action": "Least Recent Open Document"
 		},
 		{
 			"sck": "Ctrl + Alt + Home",
@@ -546,11 +598,11 @@
 		},
 		{
 			"sck": "Appwiz.cpl",
-			"action": "Add\/Remove Programs"
+			"action": "Add or Remove Programs"
 		},
 		{
 			"sck": "Timedate.cpl",
-			"action": "Date\/Time Properties"
+			"action": "Date or Time Properties"
 		},
 		{
 			"sck": "Desk.cpl",
@@ -1002,7 +1054,7 @@
 	"Browser Shortcuts": [
 		{
 			"sck": "Ctrl + D",
-			"action": "Save the tab as a favorite\/ bookmark."
+			"action": "Save the tab as a favorite or bookmark."
 		},
 		{
 			"sck": "Ctrl + Shift + D",
