@@ -108,7 +108,6 @@
             </div>
           </div>
  -->
-
     </main>
     <footer style="text-align: center; background-color: #f2f2f2; padding: 20px;">
         <p>Website proudly created by the "IP team of freshers"</p>
@@ -175,34 +174,33 @@
 //     });
     </script>
     <script>
- const shortcutInput = document.getElementById("keyInput");
- 
- let currentShortcut = []; // Store the current shortcut
-    const capturedShortcuts = []; // Store captured shortcuts
+    const shortcutInput = document.getElementById("keyInput");
+let currentShortcut = []; // Store the current shortcut
 
-    shortcutInput.addEventListener("keydown", function(event) {
-        // Push the pressed key into the currentShortcut array
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Meta" || event.key.startsWith("F")) {
         currentShortcut.push(event.key);
-
-        // Check if a modifier key (Ctrl, Alt, Shift) is pressed
+    } else {
         if (event.ctrlKey || event.altKey || event.shiftKey) {
-            currentShortcut = []; // Reset if a modifier key is pressed
+            currentShortcut.push(event.key);
+        } else {
+            currentShortcut = [event.key];
         }
+    }
 
-        // Check if the specific key combination is detected (e.g., Ctrl+D)
-        if (currentShortcut.length > 1) {
-            // Ctrl+D was pressed
-            const shortcutString = currentShortcut.join("+"); // Convert to string
-            capturedShortcuts.push(shortcutString); // Add to the capturedShortcuts array
-            alert(`Shortcut captured: ${shortcutString}`);
-            currentShortcut = []; // Reset the currentShortcut array
-            event.preventDefault(); // Prevent the default behavior (e.g., browser bookmarks)
-        }
-    });
+    if (currentShortcut.length > 1) {
+        const shortcutString = currentShortcut.join("+");
+        shortcutInput.value = shortcutString; // Display the joined shortcut in the input field
+        event.preventDefault(); // Prevent the default browser behavior
+    }
+});
 
+shortcutInput.addEventListener("keydown", function(event) {
+    // Prevent the input field from receiving keyboard input while capturing shortcuts
+    event.preventDefault();
+});
 
-   
-
+      
     </script>
 </body>
 
