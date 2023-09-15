@@ -275,7 +275,7 @@
 			"action": "Go to Next"
 		},
 		{
-			"sck":"Shift + F8",
+			"sck": "Shift + F8",
 			"action": "Previous Result in List"
 		},
 		{
