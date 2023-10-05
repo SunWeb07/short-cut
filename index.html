@@ -26,7 +26,7 @@
         <div class="container container-center">
             <section class="row p-3 justify-content-center">
                 <div class="col-md-3 col-sm-12">
-                    <img class="img-fluid" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-y83Ast7-qaP354LsxIxNaBO8NFxIqfOkMpeV3WNuvuhcCZ8_R_2mSY-20pbDY6D3DT7VAeLkTsJfroDYjOFQU0Vw493w=s2560" alt="team" />
+                    <img class="img-fluid" src="photo.jpg" alt="team" />
                 </div>
                 <div class=" col-md-9 col-sm-12 align-self-center">
                     <h1>Keyboard Shortcuts For Windows</h1>
@@ -75,114 +75,8 @@
   
 
 
-  //     });
-  //     fetch("Shortcuts.json")
-  //   .then(response => response.json())
-  //   .then(data => {
-  //     // Now the JSON data is available in the 'data' variable
-  //     for(key in data){
-  //         console.table(key);
-  //         data[key].forEach(element => {
-  //             console.table(element)
-  //         });
-  //     }
-      // You can use the data for further processing
-
-
-  //     $(document).ready(function() {
-  //       $.ajax({
-  //         url: '/Shortcuts.json', // Replace with the actual path to your JSON file
-  //         dataType: 'json',
-  //         success: function(data) {
-  //           // Process the data here and populate the table body
-  // console.log(data["Windows Shortcuts"])  
-  // tdata = $('#tdata');
-
-  // });
-          
-  //         },
-  //         error: function() {
-  //           // Display an error message if fetching data fails
-  //           $('#tdata').html('<tr><td colspan="2">Error fetching JSON data.</td></tr>');
-  //         }
-  //       });
-  //     });
       </script>
-      <script>
-        // Function to toggle the virtual keyboard
-        function toggleKeyboard() {
-            const virtualKeyboard = document.querySelector('.keyboard_wrapp');
-            if (virtualKeyboard.style.display === 'none') {
-                virtualKeyboard.style.display = 'block';
-            } else {
-                virtualKeyboard.style.display = 'none';
-            }
-        }
-    
-        // Add a click event listener to the toggle button
-        const toggleButton = document.getElementById('toggle-keyboard-button');
-        toggleButton.addEventListener('click', toggleKeyboard);
-    </script>
-    <script>
-
-      let keys = document.querySelectorAll('.keys');
-
-      // Handle key clicks
-      function handleKeyClick(key) {
-          const textInput = document.getElementById('text-input');
-
-          switch (key) {
-              case 'Backspace':
-                  textInput.value = textInput.value.slice(0, -1);
-                  break;
-              case 'Space':
-                  textInput.value += ' ';
-                  break;
-              case 'Enter':
-                  textInput.value += '\n';
-                  break;
-              default:
-                  textInput.value += key;
-          }
-      }
-
-keys.forEach((keyElement) => {
-  const key = keyElement.textContent; // Get the text content of the key
-  keyElement.addEventListener('click', () => {
-      handleKeyClick(key); // Call the handleKeyClick function with the key value
-  });
-});
-  </script>
-
-      <!-- <script>
-      const shortcutInput = document.getElementById("keyInput");
-  let currentShortcut = []; // Store the current shortcut
-
-  document.addEventListener("keydown", function(event) {
-      if (event.key === "Meta" || event.key.startsWith("F")) {
-          currentShortcut.push(event.key);
-      } else {
-          if (event.ctrlKey || event.altKey || event.shiftKey) {
-              currentShortcut.push(event.key);
-          } else {
-              currentShortcut = [event.key];
-          }
-      }
-
-      if (currentShortcut.length > 1) {
-          const shortcutString = currentShortcut.join("+");
-          shortcutInput.value = shortcutString; // Display the joined shortcut in the input field
-          event.preventDefault(); // Prevent the default bkey-rowser behavior
-      }
-  });
-
-  shortcutInput.addEventListener("keydown", function(event) {
-      // Prevent the input field from receiving keyboard input while capturing shortcuts
-      event.preventDefault();
-  });
-
-        
-      </script> -->
+      
   </body>
 
   </html>
