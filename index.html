@@ -12,9 +12,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <!-- 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
-
+<style>
+  
+</style>
   <body>
       <header class="container">
           <div class="header">
@@ -27,7 +29,7 @@
       </header>
       <main class="container">
           <div class="container container-center">
-              <section class="row p-3 justify-content-center">
+              <section class="key-row p-3 justify-content-center">
                   <div class="col-md-3 col-sm-12">
                       <img class="img-fluid"
                           src="photo.jpg"
@@ -51,10 +53,111 @@
             <form>
                 <div class="form-group">
                     <label for="exampleInput">Label for Input:</label>
-                    <input type="text" class="form-control" id="keyInput" placeholder="Enter text">
+                    <input type="text" class="form-control" id="text-input" placeholder="Enter text">
                 </div>
             </form>
-        </div>
+            <button id="toggle-keyboard-button">Toggle Virtual Keyboard</button>
+
+            <div class="keyboard_wrapp">
+       
+              <div class="keyboard_keys">
+                  <div class="key-row">
+                      <!-- Function keys -->
+                      <div class="keys function-key">ESC</div>
+                      <div class="keys function-key">F1</div>
+                      <div class="keys function-key">F2</div>
+                      <div class="keys function-key">F3</div>
+                      <div class="keys function-key">F4</div>
+                      <div class="keys function-key">F5</div>
+                      <div class="keys function-key">F6</div>
+                      <div class="keys function-key">F7</div>
+                      <div class="keys function-key">F8</div>
+                      <div class="keys function-key">F9</div>
+                      <div class="keys function-key">F10</div>
+                      <div class="keys function-key">F11</div>
+                      <div class="keys function-key">F12</div>
+                      <div class="keys function-key">Insert</div> <!-- Added Insert key -->
+                      <div class="keys function-key">Delete</div>
+                  </div>
+                  <div class="key-row">
+                      <div class="keys">`</div>
+                      <div class="keys">1</div>
+                      <div class="keys">2</div>
+                      <div class="keys">3</div>
+                      <div class="keys">4</div>
+                      <div class="keys">5</div>
+                      <div class="keys">6</div>
+                      <div class="keys">7</div>
+                      <div class="keys">8</div>
+                      <div class="keys">9</div>
+                      <div class="keys">0</div>
+                      <div class="keys">-</div>
+                      <div class="keys">=</div>
+                      <div class="keys backspace_key">Backspace</div>
+                  </div>
+                  <div class="key-row">
+                      <div class="keys tab_key">Tab</div>
+                      <div class="keys">Q</div>
+                      <div class="keys">W</div>
+                      <div class="keys">E</div>
+                      <div class="keys">R</div>
+                      <div class="keys">T</div>
+                      <div class="keys">Y</div>
+                      <div class="keys">U</div>
+                      <div class="keys">I</div>
+                      <div class="keys">O</div>
+                      <div class="keys">P</div>
+                      <div class="keys">{</div>
+                      <div class="keys">}</div>
+                      <div class="keys slash_key">\</div>
+                  </div>
+                  <div class="key-row">
+                      <div class="keys caps_lock_key">Caps Lock</div>
+                      <div class="keys">A</div>
+                      <div class="keys">S</div>
+                      <div class="keys">D</div>
+                      <div class="keys">F</div>
+                      <div class="keys">G</div>
+                      <div class="keys">H</div>
+                      <div class="keys">J</div>
+                      <div class="keys">K</div>
+                      <div class="keys">L</div>
+                      <div class="keys">;</div>
+                      <div class="keys">"</div>
+                      <div class="keys enter_key">Enter</div>
+                  </div>
+                  <div class="key-row">
+                      <div class="keys shift_key shift_left">Shift</div>
+                      <div class="keys">Z</div>
+                      <div class="keys">X</div>
+                      <div class="keys">C</div>
+                      <div class="keys">V</div>
+                      <div class="keys">B</div>
+                      <div class="keys">N</div>
+                      <div class="keys">M</div>
+                      <div class="keys">
+                          < </div>
+                              <div class="keys">></div>
+                              <div class="keys">/</div>
+                              <div class="keys">?</div>
+                              <div class="keys shift_key shift_right">Shift</div>
+                      </div>
+                      <div class="key-row">
+                          <div class="keys ctrl_key ctrl_left">Ctrl</div>
+                          <div class="keys win_key">Win</div>
+                          <div class="keys alt_key alt_left">Alt</div>
+                          <div class="keys space_key"></div>
+                          <div class="keys alt_key alt_right">Alt</div>
+                          <div class="keys">Fn</div>
+                          <div class="keys ctrl_key ctrl_right">Ctrl</div>
+                      </div>
+                  </div>
+              </div>
+      
+          </div>
+      
+      
+        
         
 
   <!-- 
@@ -118,7 +221,7 @@
       </footer>
       <!-- ... (your HTML code) ... -->
     
-<script src="keyboard.js"></script>
+
   <script>
     $(document).ready(function() {
         $(".tab").click(function() {
@@ -176,6 +279,52 @@
   //     });
       </script>
       <script>
+        // Function to toggle the virtual keyboard
+        function toggleKeyboard() {
+            const virtualKeyboard = document.querySelector('.keyboard_wrapp');
+            if (virtualKeyboard.style.display === 'none') {
+                virtualKeyboard.style.display = 'block';
+            } else {
+                virtualKeyboard.style.display = 'none';
+            }
+        }
+    
+        // Add a click event listener to the toggle button
+        const toggleButton = document.getElementById('toggle-keyboard-button');
+        toggleButton.addEventListener('click', toggleKeyboard);
+    </script>
+    <script>
+
+      let keys = document.querySelectorAll('.keys');
+
+      // Handle key clicks
+      function handleKeyClick(key) {
+          const textInput = document.getElementById('text-input');
+
+          switch (key) {
+              case 'Backspace':
+                  textInput.value = textInput.value.slice(0, -1);
+                  break;
+              case 'Space':
+                  textInput.value += ' ';
+                  break;
+              case 'Enter':
+                  textInput.value += '\n';
+                  break;
+              default:
+                  textInput.value += key;
+          }
+      }
+
+keys.forEach((keyElement) => {
+  const key = keyElement.textContent; // Get the text content of the key
+  keyElement.addEventListener('click', () => {
+      handleKeyClick(key); // Call the handleKeyClick function with the key value
+  });
+});
+  </script>
+
+      <!-- <script>
       const shortcutInput = document.getElementById("keyInput");
   let currentShortcut = []; // Store the current shortcut
 
@@ -193,7 +342,7 @@
       if (currentShortcut.length > 1) {
           const shortcutString = currentShortcut.join("+");
           shortcutInput.value = shortcutString; // Display the joined shortcut in the input field
-          event.preventDefault(); // Prevent the default browser behavior
+          event.preventDefault(); // Prevent the default bkey-rowser behavior
       }
   });
 
@@ -203,7 +352,7 @@
   });
 
         
-      </script>
+      </script> -->
   </body>
 
   </html>
